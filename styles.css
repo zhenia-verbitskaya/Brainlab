@@ -215,6 +215,7 @@ body {
   border-bottom: 1px solid rgba(170, 172, 172, 0.25);
   background: linear-gradient(90deg, rgb(255, 255, 255) 70%, rgba(170, 172, 172, 0.25) 99%);
   cursor: pointer;
+  transition: color 200ms;
 }
 
 .switch:hover {
@@ -290,6 +291,11 @@ body {
   color: #969798;
   border-bottom: 1px solid rgba(170, 172, 172, 0.25);
   cursor: pointer;
+  transition: color 200ms;
+}
+
+.mobile-switch:hover {
+  color: #e00034;
 }
 
 .mobile-switch-active {
