@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainlab</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="#" class="header-logo">
+        <img src="images/header-logo.png" alt="logo">
+      </a>
+      <nav class="header-nav">
+        <a href="#" class="nav-link">About Us</a>
+        <a href="#" class="nav-link">IT Distribution</a>
+        <a href="#" class="nav-link">Services and support</a>
+
+        <div class="submenu">
+          <a class="nav-link">Partnership<i class="fas fa-caret-down"></i></a>
+          <div class="submenu-items">
+            <div><a class="submenu-link" href="#">Vendors</a></div>
+            <div><a class="submenu-link" href="#">Customers</a></div>
+          </div>
+        </div>
+
+        <a href="#" class="nav-link">News & Press</a>
+        <a href="#" class="nav-link">Career</a>
+        <a href="#" class="nav-link">Contact Us</a>
+      </nav>
+      <button class="mobile-nav-menu-btn">
+        <img src="images/mobile-menu.png" alt="menu">
+      </button>
+    </header>
+
+    <!-- mobile-menu -->
+
+    <div class="mobile-menu">
+      <div class="mobile-menu-header">
+        <a href="#" class="header-logo">
+          <img src="images/header-logo.png" alt="logo">
+        </a>
+        <button class="mobile-menu-close-btn">
+          <img src="images/close-btn.png" alt="menu">
+        </button>
+      </div>
+
+      <div class="mobile-nav">
+        <a href="#" class="mobile-nav-link">About Us</a>
+        <a href="#" class="mobile-nav-link">IT Distribution</a>
+        <a href="#" class="mobile-nav-link">Services and support</a>
+        <div class="mobile-submenu">
+          <a class="mobile-nav-link">Partnership<i class="fas fa-caret-down"></i></a>
+
+          <div class="mobile-submenu-items">
+            <div><a class="mobile-submenu-link" href="#">Vendors</a></div>
+            <div><a class="mobile-submenu-link" href="#">Customers</a></div>
+          </div>
+        </div>
+        
+
+        <a href="#" class="mobile-nav-link">News & Press</a>
+        <a href="#" class="mobile-nav-link">Career</a>
+        <a href="#" class="mobile-nav-link">Contact Us</a>
+      </div>
+    </div>
+
+    <main class="main">
+      <section class="branches">
+        <h1 class="branches-heading">Отрасли</h1>
+        <div class="branches-container">
+          <div class="branches-switches">
+            <div class="switch" data-tab="#tab_1">Медицина</div>
+            <div class="switch" data-tab="#tab_2">Фармацевтика</div>
+            <div class="switch" data-tab="#tab_3">Криминалистика</div>
+            <div class="switch" data-tab="#tab_4">Агро</div>
+            <div class="switch" data-tab="#tab_5">Материаловедение</div>
+            <div class="switch" data-tab="#tab_6">Наука</div>
+            <div class="switch" data-tab="#tab_7">Пищевая промышленность</div>
+            <div class="switch" data-tab="#tab_8">Экология</div>
+            <div class="switch" data-tab="#tab_9">Энергетика</div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_1">
+            <div class="branch-description">
+              <h2 class="branch-title">Медицина</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_2">
+            <div class="branch-description">
+              <h2 class="branch-title">Фармацевтика</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_3">
+            <div class="branch-description">
+              <h2 class="branch-title">Криминалистика</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_4">
+            <div class="branch-description">
+              <h2 class="branch-title">Агро</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_5">
+            <div class="branch-description">
+              <h2 class="branch-title">Материаловедение</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_6">
+            <div class="branch-description">
+              <h2 class="branch-title">Наука</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_7">
+            <div class="branch-description">
+              <h2 class="branch-title">Пищевая промышленность</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_8">
+            <div class="branch-description">
+              <h2 class="branch-title">Экология</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+          <div class="branch-wrapper" id="tab_9">
+            <div class="branch-description">
+              <h2 class="branch-title">Энергетика</h2>
+              <p class="branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="btn-wrapper">
+                <button type="button" class="outside-btn"></button>
+                <div class="inside-border"></div>
+                <div class="inside-btn">
+                  <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                </div>
+              </div>
+            </div>
+            <div class="branch-image">
+              <div class="branch-background"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- mobile branches layout -->
+
+        <div class="mobile-branches-container">
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch" data-tab="#tab-1">Медицина</div>
+            <div class="mobile-branch-description" id="tab-1">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+              <div class="mobile-branch-image">
+                <div class="mobile-branch-background"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch" data-tab="#tab-2">Фармацевтика</div>
+            <div class="mobile-branch-description" id="tab-2">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+            </div>
+          </div>
+
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch"data-tab="#tab-3">Криминалистика</div>
+            <div class="mobile-branch-description" id="tab-3">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+            </div>
+          </div>
+
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch" data-tab="#tab-4">Агро</div>
+            <div class="mobile-branch-description" id="tab-4">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+            </div>
+          </div>
+
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch" data-tab="#tab-5">Материаловедение</div>
+            <div class="mobile-branch-description" id="tab-5">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+            </div>
+          </div>
+
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch" data-tab="#tab-6">Наука</div>
+            <div class="mobile-branch-description" id="tab-6">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+            </div>
+          </div>
+
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch" data-tab="#tab-7">Пищевая промышленность</div>
+            <div class="mobile-branch-description" id="tab-7">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+            </div>
+          </div>
+
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch" data-tab="#tab-8">Экология</div>
+            <div class="mobile-branch-description" id="tab-8">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+            </div>
+          </div>
+
+          <div class="mobile-branch-wrapper">
+            <div class="mobile-switch" data-tab="#tab-9">Энергетика</div>
+            <div class="mobile-branch-description" id="tab-9">
+              <p class="mobile-branch-text">
+                Предлагаем лучшие в своем классе решения для прикладных и научных исследований в направлении химического анализа и молекулярной биологии: профессиональное оборудование, расходные материалы и внедрение современных методологических подходов.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <h1 class="news-heading">Новости и вебинары</h1>
+        <div class="news-container">
+          <div class="news-wrapper">
+            <div class="news-item">
+              <div class="news-item-bg">
+                <div class="news-tag">Новость</div>
+                <div class="news-date">
+                  <span>Инна Новак</span>
+                  <span>17.02.2021</span>
+                </div>
+                <p class="news-descr">
+                  Исследования динамической молекулярной визуализации для структурной биологии от<br>
+                  Leica Microsystems
+                </p>
+                <div class="btn-wrapper">
+                  <button type="button" class="outside-btn"></button>
+                  <div class="inside-border"></div>
+                  <div class="inside-btn">
+                    <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="webi-item">
+              <div class="webi-item-bg">
+                <div class="webi-tag">Вебинар</div>
+                <div class="webi-date">
+                  <span>17.02.2021</span>
+                </div>
+                <p class="webi-descr">
+                  Исследования динамической молекулярной визуализации для структурной биологии от<br>
+                  Leica Microsystems
+                </p>
+                <div class="btn-wrapper">
+                  <button type="button" class="outside-btn"></button>
+                  <div class="inside-border"></div>
+                  <div class="inside-btn">
+                    <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="news-item">
+              <div class="news-item-bg">
+                <div class="news-tag">Новость</div>
+                <div class="news-date">
+                  <span>Инна Новак</span>
+                  <span>17.02.2021</span>
+                </div>
+                <p class="news-descr">
+                  Исследования динамической молекулярной визуализации для структурной биологии от<br>
+                  Leica Microsystems
+                </p>
+                <div class="btn-wrapper">
+                  <button type="button" class="outside-btn"></button>
+                  <div class="inside-border"></div>
+                  <div class="inside-btn">
+                    <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="webi-item">
+              <div class="webi-item-bg">
+                <div class="webi-tag">Вебинар</div>
+                <div class="webi-date">
+                  <span>17.02.2021</span>
+                </div>
+                <p class="webi-descr">
+                  Исследования динамической молекулярной визуализации для структурной биологии от<br>
+                  Leica Microsystems
+                </p>
+                <div class="btn-wrapper">
+                  <button type="button" class="outside-btn"></button>
+                  <div class="inside-border"></div>
+                  <div class="inside-btn">
+                    <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="news-item">
+              <div class="news-item-bg">
+                <div class="news-tag">Новость</div>
+                <div class="news-date">
+                  <span>Инна Новак</span>
+                  <span>17.02.2021</span>
+                </div>
+                <p class="news-descr">
+                  Исследования динамической молекулярной визуализации для структурной биологии от<br>
+                  Leica Microsystems
+                </p>
+                <div class="btn-wrapper">
+                  <button type="button" class="outside-btn"></button>
+                  <div class="inside-border"></div>
+                  <div class="inside-btn">
+                    <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="webi-item">
+              <div class="webi-item-bg">
+                <div class="webi-tag">Вебинар</div>
+                <div class="webi-date">
+                  <span>17.02.2021</span>
+                </div>
+                <p class="webi-descr">
+                  Исследования динамической молекулярной визуализации для структурной биологии от<br>
+                  Leica Microsystems
+                </p>
+                <div class="btn-wrapper">
+                  <button type="button" class="outside-btn"></button>
+                  <div class="inside-border"></div>
+                  <div class="inside-btn">
+                    <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="news-item">
+              <div class="news-item-bg">
+                <div class="news-tag">Новость</div>
+                <div class="news-date">
+                  <span>Инна Новак</span>
+                  <span>17.02.2021</span>
+                </div>
+                <p class="news-descr">
+                  Исследования динамической молекулярной визуализации для структурной биологии от<br>
+                  Leica Microsystems
+                </p>
+                <div class="btn-wrapper">
+                  <button type="button" class="outside-btn"></button>
+                  <div class="inside-border"></div>
+                  <div class="inside-btn">
+                    <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="webi-item">
+              <div class="webi-item-bg">
+                <div class="webi-tag">Вебинар</div>
+                <div class="webi-date">
+                  <span>17.02.2021</span>
+                </div>
+                <p class="webi-descr">
+                  Исследования динамической молекулярной визуализации для структурной биологии от<br>
+                  Leica Microsystems
+                </p>
+                <div class="btn-wrapper">
+                  <button type="button" class="outside-btn"></button>
+                  <div class="inside-border"></div>
+                  <div class="inside-btn">
+                    <img src="images/vector-arrow-right.svg" alt="arrow-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-container">
+          <input class="slider" type="range" min="0" value="0">
+        </div>
+      </section>
+    </main>
+
+    <!-- modal form -->
+
+    <div class="modal">
+      <div class="modal-container">
+        <div class="modal-content">
+          <button class="close-btn" type="button">
+            <img src="images/close-btn.png" alt="cross">
+          </button>
+          <h4 class="form-title">Become a partner</h4>
+          <form class="form" action="" method="GET">
+            <input class="form-input" type="text" placeholder="Full name" required>
+            <input class="form-input" type="phone" placeholder="Phone number" required>
+            <textarea class="form-message" placeholder="Message" minlength="20"></textarea>
+            <button class="form-btn" type="submit">Send</button>
+            <p class="form-remark">Thank you, your application has been sent.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
